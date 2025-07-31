@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>成长纪念册——首页</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <style>
+        .hero-div {
+            background-image: url('images\\main.png');
+            height: 100%;
+            width: 100%;
+            text-shadow: 5px 5px 1px black;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 100% 100%;
+            background-color: black;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            color: black;
+            text-align: center;
+            font-size: 2.6rem;
+            border-radius: 0.5rem;
+        }
+
+        .hero-div h1 {
+            font-size: 4rem;
+            color: white;
+        }
+
+        .main-content {
+            position: fixed;
+            width: 80%;
+            height: 92.5%;
+            left: 19%;
+            top: 6.5%;
+        }
+
+        @media (min-width: 768px) {
+            .hero-div {
+                background-size: 100% 110%;
+            }
+
+            .hero-div h1 {
+                font-size: 7rem;
+            }
+
+            .main-content {
+                width: 80%;
+                left: 19%;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .hero-div {
+                background-image: url("images/main2.png");
+                background-size: 100% 100%;
+            }
+
+            .hero-div h1 {
+                font-size: 10rem;
+            }
+
+            .main-content {
+                width: 84%;
+                left: 15%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        ★ 成长纪念册
+    </div>
+
+    <div class="sidebar"></div>
+
+    <script type="text/javascript" src="js/sidebar-config.js"></script>
+
+    <main class="main-content">
+        <div class="hero-div">
+            <h1>成长纪念册</h1>
+        </div>
+    </main>
+</body>
+
+</html>
