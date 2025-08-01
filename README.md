@@ -13,7 +13,7 @@
 class-album/
 ├── index.html           # 网站主页 
 ├── help.html            # 帮助文档
-└──styles/
+└── styles/
 │   │   └── style.css    # 所有页面样式
 ├── images/              # 存放班级照片
 │   ├── travel           # 存放研学照片
