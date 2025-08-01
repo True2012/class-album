@@ -4,7 +4,7 @@
 **网站地址**：[https://q61.pages.dev/](https://q61.pages.dev/, "前往网站")
  
 ## 🛠️ 仓库地址
-前往[https://github.com/True2012/class-album/](GitHub仓库, "前往GitHub仓库")或[https://gitcode.com/2401_82923566/class-album/][GitCode仓库, "前往GitCode仓库"]
+前往[GitHub仓库](https://github.com/True2012/class-album/, "前往GitHub仓库")或[GitCode仓库](https://gitcode.com/2401_82923566/class-album/, "前往GitCode仓库")
  
 ---
  
